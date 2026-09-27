@@ -2,7 +2,7 @@
 
 A small full-stack rental platform: browse apartments, filter them, and apply. Landlords manage incoming applications in a password-protected admin pipeline.
 
-**Live demo:** _add your Vercel link here_
+**Live demo:** https://apartment-finder-mgabunad.netlify.app
 
 ## Features
 
@@ -16,7 +16,7 @@ A small full-stack rental platform: browse apartments, filter them, and apply. L
 
 - **Next.js** (App Router) with **React** and **TypeScript**
 - **Supabase** (Postgres): relational tables with a foreign key, check constraints, indexes, and Row Level Security
-- **Vercel** for hosting and environment variables
+- **Netlify** for hosting, continuous deployment from GitHub, and environment variables
 
 ## How it's built
 
