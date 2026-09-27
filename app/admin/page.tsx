@@ -73,7 +73,8 @@ export default async function AdminPage() {
                     <span className="badge">{a.status}</span>
                     <form action={updateStatus} className="status-form" style={{ marginTop: 6 }}>
                       <input type="hidden" name="id" value={a.id} />
-                      <select name="status" defaultValue={a.status} aria-label="New status">
+                      {/* key forces the dropdown to reset to the saved status after each update */}
+                      <select key={a.status} name="status" defaultValue={a.status} aria-label="New status">
                         {APPLICATION_STATUSES.map((s) => (
                           <option key={s} value={s}>{s}</option>
                         ))}
